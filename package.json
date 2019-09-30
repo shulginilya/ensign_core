@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pm2 start pm2.json --only ensign_dev && pm2 logs ensign_dev"
   },
   "author": "",
   "license": "ISC",
@@ -30,7 +31,9 @@
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
     "helmet": "^3.15.0",
-    "morgan": "^1.8.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9",
+    "pm2": "^3.2.9",
     "winston": "^3.1.0"
   },
   "devDependencies": {

@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "ensign_dev",
+      "script": "./src/index.js",
+      "port": 1302,
+      "watch": true,
+      "exec_interpreter": "babel-node",
+      "pm_error_file": "logs/pm_error_file.log",
+      "pm_out_file": "logs/pm_out_file.log",
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    }
+  ]
+}

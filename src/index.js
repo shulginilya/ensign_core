@@ -1,4 +1,5 @@
 require('babel-register')({
     presets: ['es2015', 'stage-0']
 });
-module.exports = require('./index.js');
+require('./app.js');
+// module.exports = require('./app.js');
